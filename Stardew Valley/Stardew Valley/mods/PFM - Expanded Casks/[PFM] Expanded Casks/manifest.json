@@ -1,0 +1,14 @@
+{
+  "Name": "[PFM] Expanded Casks",
+  "Author": "Epsilon",
+  "Version": "1.1",
+  "Description": "Adds casks which take multiple inputs and age more types of product.",
+  "UniqueID": "Epsilon.ExpandedCasksPFM",
+  "MinimumApiVersion": "3.0.0",
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

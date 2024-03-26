@@ -1,0 +1,12 @@
+{
+	"Name": "[JA] Expanded Casks - Normal",
+	"Author": "Epsilon",
+	"Version": "1.1",
+	"Description": "Expanded casks which take multiple inputs and age more types of product.",
+	"UniqueID": "Epsilon.UpgradedCasksJA",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

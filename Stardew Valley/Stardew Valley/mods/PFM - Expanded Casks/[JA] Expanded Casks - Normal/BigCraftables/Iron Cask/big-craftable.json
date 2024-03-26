@@ -1,0 +1,34 @@
+{
+    "Name": "Iron Cask",
+    "Description": "Ages many products at the same time - 25 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 500
+			},
+			{
+				"Object": 709,
+				"Count": 25
+			},
+			{
+				"Object": 335,
+				"Count": 12
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 187500
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 13750
+}

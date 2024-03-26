@@ -1,0 +1,6 @@
+[2024-01-12 18:07:56.147 D] command line: '"D:\Moding\MO2\ModOrganizer.exe" '
+[2024-01-12 18:07:56.147 I] starting Mod Organizer version 2.5.0 revision 22714e5c in D:/Moding/MO2, usvfs: 0.5.5.1
+[2024-01-12 18:07:56.147 I] data path: C:/Users/USERNAME/AppData/Local/ModOrganizer/Stardew Valley
+[2024-01-12 18:07:56.147 I] working directory: D:/Moding/MO2
+[2024-01-12 18:07:56.147 D] timing: MOApplication setup() 0 ms
+[2024-01-12 18:07:57.522 I] using game plugin 'Stardew Valley' ('stardewvalley', variant (none), steam id '413150') at D:/SteamLibrary/steamapps/common/Stardew Valley

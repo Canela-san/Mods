@@ -1,0 +1,34 @@
+{
+    "Name": "Gold Cask",
+    "Description": "Ages many products at the same time - 50 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 1000
+			},
+			{
+				"Object": 709,
+				"Count": 50
+			},
+			{
+				"Object": 336,
+				"Count": 25
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 375000
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 27500
+}

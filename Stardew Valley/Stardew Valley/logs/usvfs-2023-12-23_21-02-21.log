@@ -1,0 +1,21 @@
+18:02:21.571 [I] usvfs dll 0.5.5.1 initialized in process 11096
+18:02:21.571 [D] remove from process 11096
+18:02:21.571 [I] create config in 11096
+18:02:21.571 [I] 0 processes
+18:02:21.571 [I] mod_organizer_instance_1 created in process 11096
+18:02:21.571 [I] attached to mod_organizer_instance_1 with 1 nodes, size 4,194,304 B
+18:02:21.571 [I] inv_mod_organizer_instance_1 created in process 11096
+18:02:21.571 [I] attached to inv_mod_organizer_instance_1 with 1 nodes, size 131,072 B
+18:02:21.571 [D] context current shm: mod_organizer_instance (now 2 connections)
+18:02:21.571 [D] clearing blacklist
+18:02:21.572 [D] blacklisting 'Chrome.exe'
+18:02:21.572 [D] blacklisting 'Firefox.exe'
+18:02:21.572 [D] blacklisting 'TSVNCache.exe'
+18:02:21.572 [D] blacklisting 'TGitCache.exe'
+18:02:21.572 [D] blacklisting 'Steam.exe'
+18:02:21.572 [D] blacklisting 'GameOverlayUI.exe'
+18:02:21.572 [D] blacklisting 'Discord.exe'
+18:02:21.572 [D] blacklisting 'GalaxyClient.exe'
+18:02:21.572 [D] blacklisting 'Spotify.exe'
+18:02:21.572 [D] blacklisting 'Brave.exe'
+18:02:21.572 [D] clearing forced libraries

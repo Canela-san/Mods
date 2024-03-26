@@ -1,0 +1,23 @@
+[
+	{
+		"ProducerName":"Copper Cask",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+	{
+		"ProducerName":"Iron Cask",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+	{
+		"ProducerName":"Gold Cask",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+	{
+		"ProducerName":"Iridium Cask",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+	{}
+]

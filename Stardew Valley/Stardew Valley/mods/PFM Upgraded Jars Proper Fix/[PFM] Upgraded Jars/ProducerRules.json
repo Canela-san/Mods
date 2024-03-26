@@ -1,0 +1,318 @@
+[
+	// Preserves Jar - Copper
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Copper",
+		"InputIdentifier": "-79",
+		"InputStack": 10,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 10,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Copper",
+		"InputIdentifier": "-75",
+		"InputStack": 10,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 10,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	{ //PickledGinger
+		"ProducerName": "Preserves Jar - Copper",
+		"InputIdentifier": "829",
+		"InputStack": 10,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 10,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	{ //AgedRoe-Caviar
+		"ProducerName": "Preserves Jar - Copper",
+		"InputIdentifier": "812", // roe index
+		"InputStack": 10,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "447", // aged roe index
+		"PreserveType": "AgedRoe", // this is the preserve type of the output, so its Aged Roe and not Roe
+		"KeepInputParentIndex": true, // means that output fish type will be the same as the input fish type (ex. Perch Roe -> Aged Perch Roe)
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 2, // means that the output price is x2 the input price
+		"KeepInputQuality": true,
+		"OutputStack": 10,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue",
+                "OutputColorConfig": {
+                    "Type": "ObjectColor"
+                 },
+		"AdditionalOutputs": [
+			{
+	   	                "InputStack": 10,
+                                "InputPriceBased": true,
+				"OutputIdentifier": "445", // Caviar index
+                                "OutputProbability": 1.0, // means that Caviar is guaranteed to be produced when Sturgeon Roe is input
+                                "OutputPriceMultiplier": 2,
+				"RequiredInputParentIdentifier": [ "698" ], // Sturgeon index is required to make sure Caviar is only produced when Sturgeon Roe is input
+		                "KeepInputQuality": true,
+		                "OutputStack": 10,
+				"MinutesUntilReady": 6000
+			}
+		]
+	},
+	// Preserves Jar - Iron
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Iron",
+		"InputIdentifier": "-79",
+		"InputStack": 25,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 25,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Iron",
+		"InputIdentifier": "-75",
+		"InputStack": 25,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 25,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+	},
+	{ //PickledGinger
+		"ProducerName": "Preserves Jar - Iron",
+		"InputIdentifier": "829",
+		"InputStack": 25,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 25,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+	},
+	{ //AgedRoe-Caviar
+		"ProducerName": "Preserves Jar - Iron",
+		"InputIdentifier": "812", // roe index
+		"InputStack": 25,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "447", // aged roe index
+		"PreserveType": "AgedRoe", // this is the preserve type of the output, so its Aged Roe and not Roe
+		"KeepInputParentIndex": true, // means that output fish type will be the same as the input fish type (ex. Perch Roe -> Aged Perch Roe)
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 2, // means that the output price is x2 the input price
+		"KeepInputQuality": true,
+		"OutputStack": 25,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue",
+                "OutputColorConfig": {
+                    "Type": "ObjectColor"
+                 },
+		"AdditionalOutputs": [
+			{
+	   	                "InputStack": 25,
+                                "InputPriceBased": true,
+				"OutputIdentifier": "445", // Caviar index
+                                "OutputProbability": 1.0, // means that Caviar is guaranteed to be produced when Sturgeon Roe is input
+                                "OutputPriceMultiplier": 2,
+				"RequiredInputParentIdentifier": [ "698" ], // Sturgeon index is required to make sure Caviar is only produced when Sturgeon Roe is input
+		                "KeepInputQuality": true,
+		                "OutputStack": 25,
+				"MinutesUntilReady": 6000
+			}
+		]
+	},
+	// Preserves Jar - Gold
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Gold",
+		"InputIdentifier": "-79",
+		"InputStack": 50,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 50,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Gold",
+		"InputIdentifier": "-75",
+		"InputStack": 50,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 50,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	{ //PickledGinger
+		"ProducerName": "Preserves Jar - Gold",
+		"InputIdentifier": "829",
+		"InputStack": 50,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 50,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	{ //AgedRoe-Caviar
+		"ProducerName": "Preserves Jar - Gold",
+		"InputIdentifier": "812", // roe index
+		"InputStack": 50,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "447", // aged roe index
+		"PreserveType": "AgedRoe", // this is the preserve type of the output, so its Aged Roe and not Roe
+		"KeepInputParentIndex": true, // means that output fish type will be the same as the input fish type (ex. Perch Roe -> Aged Perch Roe)
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 2, // means that the output price is x2 the input price
+		"KeepInputQuality": true,
+		"OutputStack": 50,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue",
+                "OutputColorConfig": {
+                    "Type": "ObjectColor"
+                 },
+		"AdditionalOutputs": [
+			{
+	   	                "InputStack": 50,
+                                "InputPriceBased": true,
+				"OutputIdentifier": "445", // Caviar index
+                                "OutputProbability": 1.0, // means that Caviar is guaranteed to be produced when Sturgeon Roe is input
+                                "OutputPriceMultiplier": 2,
+				"RequiredInputParentIdentifier": [ "698" ], // Sturgeon index is required to make sure Caviar is only produced when Sturgeon Roe is input
+		                "KeepInputQuality": true,
+		                "OutputStack": 50,
+				"MinutesUntilReady": 6000
+			}
+		]
+	},
+	// Preserves Jar - Iridium
+	{ //Jelly
+		"ProducerName": "Preserves Jar - Iridium",
+		"InputIdentifier": "-79",
+		"InputStack": 100,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "344",
+		"PreserveType": "Jelly",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 100,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+	{ //Pickle
+		"ProducerName": "Preserves Jar - Iridium",
+		"InputIdentifier": "-75",
+		"InputStack": 100,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 100,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	{ //PickledGinger
+		"ProducerName": "Preserves Jar - Iridium",
+		"InputIdentifier": "829",
+		"InputStack": 100,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "342",
+		"PreserveType": "Pickle",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 50,
+		"OutputPriceMultiplier": 2,
+		"KeepInputQuality": true,
+		"OutputStack": 100,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles"
+	},
+	{ //AgedRoe-Caviar
+		"ProducerName": "Preserves Jar - Iridium",
+		"InputIdentifier": "812", // roe index
+		"InputStack": 100,
+		"MinutesUntilReady": 4000,
+		"OutputIdentifier": "447", // aged roe index
+		"PreserveType": "AgedRoe", // this is the preserve type of the output, so its Aged Roe and not Roe
+		"KeepInputParentIndex": true, // means that output fish type will be the same as the input fish type (ex. Perch Roe -> Aged Perch Roe)
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 2, // means that the output price is x2 the input price
+		"KeepInputQuality": true,
+		"OutputStack": 100,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue",
+                "OutputColorConfig": {
+                    "Type": "ObjectColor"
+                 },
+		"AdditionalOutputs": [
+			{
+	   	                "InputStack": 100,
+                                "InputPriceBased": true,
+				"OutputIdentifier": "445", // Caviar index
+                                "OutputProbability": 1.0, // means that Caviar is guaranteed to be produced when Sturgeon Roe is input
+                                "OutputPriceMultiplier": 2,
+				"RequiredInputParentIdentifier": [ "698" ], // Sturgeon index is required to make sure Caviar is only produced when Sturgeon Roe is input
+		                "KeepInputQuality": true,
+		                "OutputStack": 100,
+				"MinutesUntilReady": 6000
+			}
+		]
+	},
+]

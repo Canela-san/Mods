@@ -1,0 +1,34 @@
+{
+    "Name": "Iridium Cask",
+    "Description": "Ages many products at the same time - 100 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 2000
+			},
+			{
+				"Object": 709,
+				"Count": 100
+			},
+			{
+				"Object": 337,
+				"Count": 50
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 750000
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 55000
+}

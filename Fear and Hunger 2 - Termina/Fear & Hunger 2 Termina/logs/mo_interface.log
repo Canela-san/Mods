@@ -1,0 +1,7 @@
+[2024-03-26 02:15:50.094 D] command line: '"D:\Moding\MO2\ModOrganizer.exe" '
+[2024-03-26 02:15:50.094 I] starting Mod Organizer version 2.5.0 revision 22714e5c in D:/Moding/MO2, usvfs: 0.5.5.1
+[2024-03-26 02:15:50.094 I] data path: C:/Users/USERNAME/AppData/Local/ModOrganizer/Fear & Hunger 2 Termina
+[2024-03-26 02:15:50.094 I] working directory: D:/Moding/MO2
+[2024-03-26 02:15:50.094 D] timing: MOApplication setup() 0 ms
+[2024-03-26 02:15:50.773 E] Failed to import module game_FearHunger.py: No module named 'PyQt5'
+[2024-03-26 02:15:51.031 I] using game plugin 'Fear & Hunger 2: Termina' ('fearandhunger2termina', variant (none), steam id '2171440') at D:/SteamLibrary/steamapps/common/Fear & Hunger 2 Termina

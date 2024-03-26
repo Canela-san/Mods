@@ -1,0 +1,34 @@
+{
+    "Name": "Copper Cask",
+    "Description": "Ages many products at the same time - 10 times the capacity of a normal cask.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients":
+		[
+			{
+			    "Object": 388,
+			    "Count": 200
+			},
+			{
+				"Object": 709,
+				"Count": 10
+			},
+			{
+				"Object": 334,
+				"Count": 5
+			}
+		],
+
+		"CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 75000
+	},
+
+	"CanPurchase": true,
+	"PurchaseFrom": "Clint",
+	"PurchasePrice": 5500
+}

@@ -1,0 +1,3587 @@
+[
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Beer",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Caviar",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Cheese",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Goat Cheese",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Jelly",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Juice",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Mead",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Pale Ale",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 24480,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Pickles",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Wine",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 40320,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Honey",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Ginger Ale",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Vinegar",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 14400,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Copper Cask",
+
+		"InputIdentifier": "Aged Roe",
+		"InputStack": 10,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 10
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 10,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 10
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Beer",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Caviar",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Cheese",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Goat Cheese",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Jelly",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Juice",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Mead",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Pale Ale",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 24480,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Pickles",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Wine",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 40320,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Honey",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Ginger Ale",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Vinegar",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 14400,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iron Cask",
+
+		"InputIdentifier": "Aged Roe",
+		"InputStack": 25,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 25
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 25,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 25
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Beer",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Caviar",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Cheese",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Goat Cheese",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Jelly",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Juice",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Mead",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Pale Ale",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 24480,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Pickles",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Wine",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 40320,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Honey",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Ginger Ale",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Vinegar",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 14400,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Gold Cask",
+
+		"InputIdentifier": "Aged Roe",
+		"InputStack": 50,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 50
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 50,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 50
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Beer",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Beer",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Beer",
+				"OutputName": "Beer",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Caviar",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Caviar",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Caviar",
+				"OutputName": "Caviar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Cheese",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Cheese",
+				"OutputName": "Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Goat Cheese",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Goat Cheese",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Goat Cheese",
+				"OutputName": "Goat Cheese",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Jelly",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Jelly",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Jelly",
+				"PreserveType": "Jelly",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Juice",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Juice",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Juice",
+				"PreserveType": "Juice",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Mead",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Mead",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Mead",
+				"OutputName": "Mead",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Pale Ale",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 12240,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Pale Ale",
+				"MinutesUntilReady": 24480,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pale Ale",
+				"OutputName": "Pale Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Pickles",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 11520,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Pickles",
+				"MinutesUntilReady": 23040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Pickles",
+				"PreserveType": "Pickle",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Wine",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Wine",
+				"MinutesUntilReady": 40320,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Wine",
+				"PreserveType": "Wine",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Honey",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Honey",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Honey",
+				"OutputName": "Honey",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Ginger Ale",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 5040,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Ginger Ale",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Ginger Ale",
+				"OutputName": "Ginger Ale",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Vinegar",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 7200,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Vinegar",
+				"MinutesUntilReady": 14400,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Vinegar",
+				"OutputName": "Vinegar",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{
+		"ProducerName": "Iridium Cask",
+
+		"InputIdentifier": "Aged Roe",
+		"InputStack": 100,
+		"MinutesUntilReady": 20,
+		"SubtractTimeOfDay": true,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"AdditionalOutputs":
+	   	[
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 0 ],
+				"OutputQuality": 1,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 10080,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 1 ],
+				"OutputQuality": 2,
+				"RequiredInputStack": 100
+			},
+			{
+				"InputIdentifier": "Aged Roe",
+				"MinutesUntilReady": 20160,
+				"SubtractTimeOfDay": true,
+				"OutputIdentifier": "Aged Roe",
+				"PreserveType": "AgedRoe",
+
+
+				"KeepInputParentIndex": true,
+				"InputPriceBased": true,
+				"OutputStack": 100,
+
+				"OutputProbability": 1,
+				"RequiredInputQuality": [ 2 ],
+				"OutputQuality": 4,
+				"RequiredInputStack": 100
+			}
+		],
+		"Sounds": [ "Ship" ],
+		"DelayedSounds": [ { "bubbles": 50 } ]
+	},
+	{}
+]
